@@ -1,3 +1,4 @@
+// What would be the output of the program
 #include<stdio.h>
 int main()
 {
