@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int i,j;
-    i = 10;
-    j = 20;
-    if(i==j);
-    printf("%d\t%d",i,j);
+    int x = 3;
+    float y = 3.0;
+    if(x==y)
+        printf("Hello");
+    else
+        printf("World");
     return(0);
 }
