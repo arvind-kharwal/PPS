@@ -1,0 +1,8 @@
+/*
+Write a C program to print the following pattern.
+a b c d e
+a b c d e
+a b c d e
+a b c d e
+a b c d e
+*/
