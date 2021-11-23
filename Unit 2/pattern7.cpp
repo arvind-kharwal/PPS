@@ -1,10 +1,10 @@
 /*
 Write a C program to print the following pattern.
-a b c d e
-a b c d e
-a b c d e
-a b c d e
-a b c d e
+a a a a a
+b b b b b
+c c c c c
+d d d d d
+e e e e e
 */
 
 #include<stdio.h>
@@ -15,7 +15,7 @@ int main()
     {
         for(j=97;j<=101;j++)
         {
-            printf("%c",j); // type casting
+            printf("%c",i); // type casting
         }
         printf("\n");
     }

@@ -1,21 +1,21 @@
 /*
 Write a C program to print the following pattern.
-a b c d e
-a b c d e
-a b c d e
-a b c d e
-a b c d e
+5
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
 */
 
 #include<stdio.h>
 int main()
 {
     int i,j;
-    for(i=97;i<=101;i++)
+    for(i=5;i>=1;i--)
     {
-        for(j=97;j<=101;j++)
+        for(j=5;j>=i;j--)
         {
-            printf("%c",j); // type casting
+            printf("%d",j); 
         }
         printf("\n");
     }
