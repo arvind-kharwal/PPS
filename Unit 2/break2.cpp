@@ -2,11 +2,11 @@
 int main( )
 {
     int x = 4, y = 0, z ;
-    while ( x >= 0 )    // 2
+    while ( x >= 0 )    // 3
     {
         x-- ;  // 2
         y++ ;  // 2
-        
+
         if ( x == y )
             break ;
         else

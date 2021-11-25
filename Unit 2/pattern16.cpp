@@ -6,6 +6,12 @@ Write a C program to print the following pattern.
 -  -  *  *  *
 -  *  *  *  *
 *  *  *  *  *
+
+            1
+        1   2
+    1   2   3
+
+
            
 */
 
