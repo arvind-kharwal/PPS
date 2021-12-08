@@ -5,14 +5,20 @@ Hello
 SRM
 **********
 */
+void drawline(); // function declaration
 #include<stdio.h>
 int main()
 {
-    int i;
-    // drawline();
+    drawline();     // function calling
     printf("\nHello\n");
-    // drawline();
+    drawline();     // function calling
     printf("\nSRM\n");
-    // drawline();
+    drawline();     // function calling
     return(0);
+}
+void drawline()
+{
+    int i;
+    for(i=0;i<10;i++)
+        printf("=");
 }
